@@ -1,0 +1,14 @@
+/* FeatureIcons.css */
+
+.feature-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feature-icons .icon {
+    font-size: 2rem; /* Adjust the size of the icons as needed */
+    margin: 0 10px; /* Adjust the spacing between icons as needed */
+    color: #333333; /* Adjust the color of the icons */
+  }
+  

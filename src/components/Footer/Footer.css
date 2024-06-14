@@ -1,0 +1,109 @@
+/* Footer.css */
+
+.footer {
+  background-image: url('https://www.coolpod.com.au/wp-content/uploads/2016/12/mail-header.png');
+  color: #ffffff;
+  padding: 30px 0;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Adjust alignment */
+  align-items: center; /* Center vertically */
+}
+
+.footer-left {
+  flex-basis: 30%;
+  padding-top: 4px;
+}
+
+.footer-left p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #0c0c0c;
+  font-weight: 540;
+}
+
+.footer-right {
+  flex-basis: 30%;
+  padding-left: 20px;
+}
+
+
+.footer-right p {
+  width: 90%; /* Adjust width */
+  padding-bottom: 20px;
+  color: #0c0c0c;
+}
+
+.footer-right h3{
+  width: 50%;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  color: #0c0c0c;
+
+}
+
+.footer-right form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.footer-right form input[type="email"] {
+  padding: 9px;
+  margin-bottom: 20px;
+  width: 99.5%; /* Adjust width */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.footer-right form button {
+  padding: 10px;
+  background-color: #0d0d0e;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 99%; /* Adjust width */
+}
+
+.footer-right form button:hover {
+  background-color: #03438d;
+}
+
+.footer-middle {
+  text-align: center;
+  color: #090909;
+}
+
+.footer-middle .social-icons {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.footer-middle .social-icons a {
+  color: #090909;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.footer-middle .social-icons a:last-child {
+  margin-right: 0;
+}
+
+.footer-middle .social-icons a:hover {
+  color: #0a67f1;
+}
+
+.footer-middle p {
+  font-size: 15px;
+  margin-bottom: 0;
+}

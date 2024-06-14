@@ -1,0 +1,119 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  background-color: white;
+  height: 105vh;
+  box-sizing: border-box;
+  padding-bottom: 370px;
+}
+
+.hero-content {
+  max-width: 50%;
+  text-align: left;
+  padding-top: 300px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  background: linear-gradient(to right, #e60505, #d01ad0);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text; /* Standard property */
+  -webkit-text-fill-color: transparent;
+  padding-bottom: -30px;
+}
+
+
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  color: #a904b8;
+  padding-left: 9px;
+  padding-bottom: 20px;
+  font-weight: 2.0em;
+  
+}
+
+.cta-button {
+  padding: 15px 30px;
+  font-size: 1em;
+  color: white;
+  background: linear-gradient(90deg, #fb8910, #de5bf6);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #BA68C8;
+}
+
+
+.hero-image {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  bottom: 0;
+  padding-right: 0;
+  
+}
+
+.hero-image img {
+  height: 130%;
+  width: 80%;
+  object-fit: cover;
+  border-radius: 0px 10px 0px 10px;
+  padding-top: 190px; 
+  mask-image: linear-gradient(to right, transparent, black 10%, black 60%, transparent); /* Mask gradient */
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 60%, transparent); /* WebKit-specific */
+}
+.additional-content {
+  margin-top: 80px;
+
+}
+
+.additional-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  
+}
+
+.additional-content li {
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+  
+}
+.additional-content li:not(:last-child) {
+  margin-bottom: 27px; /* Adjust the gap size as needed */
+}
+
+.see-more-button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-size: 0.7em;
+  color: rgb(127, 9, 146);
+  background: linear-gradient(90deg, #fdfcfb, #f3eff4);
+  border: 2px solid #c612bd;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+.see-more-button:hover {
+  background-color: #BA68C8;
+}
+
+.arrow {
+  margin-left: 5px;
+  color: #77098b;
+}

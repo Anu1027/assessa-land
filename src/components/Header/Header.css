@@ -1,0 +1,105 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px 20px 50px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap; /* Allow wrapping */
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #7f0db4;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px; /* Space between navigation buttons */
+}
+
+.nav-button {
+  background: linear-gradient(to right, #81059a, #ee74f2); /* Gradient background */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px; /* Make button cylindrical */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background: linear-gradient(to right, #8a00ff, #cc39e7); /* Change gradient direction on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 25px; /* Adjust this value to control the space between Sign Up and Login buttons */
+  margin-right: 70px;
+}
+
+.signup-button,
+.login-button {
+  padding: 10px 25px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-button:hover,
+.login-button:hover {
+  background-color: #333; /* Darken the black background on hover */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-button {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0; /* Space between buttons in vertical layout */
+  }
+
+  .auth-buttons {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin-right: 0; /* Remove right margin on small screens */
+  }
+
+  .signup-button, .login-button {
+    width: 100%; /* Make buttons take full width */
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 1.2em; /* Adjust logo size for very small screens */
+  }
+
+  .nav-button, .signup-button, .login-button {
+    padding: 8px 15px; /* Adjust button padding for smaller screens */
+  }
+}
